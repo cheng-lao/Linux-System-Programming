@@ -1,0 +1,38 @@
+# 可执行文件
+# 排除所有没有扩展名的可执行文件（如 main, a.out 等）
+# 如果只想排除特定目录下的，可以使用 Process-PIC/code/main
+main
+a.out
+*.exe
+
+# 编译产生的目标文件
+*.o
+*.obj
+
+# 静态库和动态库
+*.a
+*.so
+*.dylib
+*.dll
+
+# 编译产生的其他文件
+*.out
+*.bin
+
+# 调试信息文件
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# IDE 和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 临时文件
+*.tmp
+*.log
